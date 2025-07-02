@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="This is my resume" />
+        <meta name="author" content="Crystal" />
+        <title>My Resume</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core Theme w/Bootstrap-->
+         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js">
+</script>
+        <style type="text/css">
+                body {
+                    padding-top: 3.375rem;
+                    color: #071fbf;
+                }
+
+                @media (min-width: 992px) {
+                    body{
+                    padding-top: 0;
+                    padding-left: 17rem;
+                    }
+                }
+
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6 {
+                    text-transform: uppercase;
+                    color: rgb(8, 0, 8);
+                }
+                .text-primary{
+                    color:rgb(8, 0, 8) !important;
+                }
+
+                h1 {
+                    line-height: 1;
+                }
+
+                p.lead {
+                    font-size: 1.15rem;
+                    font-weight: 400;
+                }
+
+                .subheading {
+                    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji";
+                    text-transform: uppercase;
+                    Font-weight:500;
+                    font: 1.5rem;
+                }
+
+                #sideNav .navbar-nav .nav-item .nav-link {
+                    font-weight: 800;
+                    letter-spacing: 0.05rem;
+                    text-transform: uppercase;
+                }
+
+                #sideNav .navbar-toggler:focus{
+                    outline-color: #e235cb; 
+                }
+
+                @media (min-width: 992px) {
+                    #sideNav {
+                        text-align: center;
+                        position: fixed;
+                        top: 0;
+                        left: 0;
+                        flex-direction: column;
+                        width: 17rem;
+                        height: 100vh;
+                    }
+                    #sideNav .navbar-brand {
+                        display: flex;
+                        margin: auto auto 0;
+                        padding: 0.5rem;
+                    }
+
+                    #sideNav .navbar-brand .img-profile {
+                        max-width: 10rem;
+                        max-height: 10rem;
+                        border: 0.5rem solid rgba (255,255,255, 0.2);
+                    }
+
+                    #sideNav .navbar-collapse{
+                        display: flex;
+                        align-items: flex-start;
+                        flex-grow: 0;
+                        width: 100%;
+                        margin-bottom: auto;
+                    }
+
+                    #sideNav .navbar-collapse .navbar-nav {
+                        flex-direction: column;
+                        width: 100%;
+                    }
+
+                    #sideNav .navbar-collapse .navbar-nav .nav-item {
+                        display: block;
+                    }
+
+                    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+                        display: block;
+                    }
+                }
+
+                .social-icons .social-icon {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 3.5rem;
+                    width: 3.5rem;
+                    background-color: #1e0474;
+                    color: #f5f2f2;
+                    border-radius: 100%;
+                    font-size: 1.5rem;
+                    margin-right: 1.5rem;
+
+                }
+
+                .social-icons .social-icon:last-child{
+                    margin-right: 0;
+                }
+
+                .social-icons .social-icon:hover{
+                    background-color: hsl(307, 92%, 19%);
+                }
+
+                .dev-icons{
+                    font-size: 3rem;
+                }
+
+                section.resume-section{
+                    display: flex;
+                    align-items: center;
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                    padding-top: 5rem;
+                    padding-bottom: 5rem;
+                    max-width: 75rem;
+
+                }
+
+                section.resume-section .resume-section-content{
+                    width: 100%;
+                }
+
+                @media (min-width:768px){
+                    section.resume-section{
+                        min-height 100vh;
+                     }
+                }
+
+                @media (min-width 992px){
+                    section.resume-section{
+                        padding-left: 3rem;
+                        padding-right: 3rem;
+                        padding-top: 5rem;
+                        padding-bottom: 5rem;
+                    }
+                }
+
+                .bg-primary{
+                    background-color: #a1068d !important;
+                }
+
+                a{
+                    color:#1e0474;
+                }
+
+                .navbar .navbar-nav .nav-link{
+                    color: rgba(5, 4, 0, 0.5);
+                }
+
+        </style>
+    </head> 
+    <body id="page-top"> 
+        <!-- Navigation -->
+         <nav id="sideNav" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+            <a class="navbar-brand" href="#page-top"><span class="d-block d-lg-none">Crystal Lynn Wallace-Dowdell</span><span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/mypic2.jpg" /></span></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <il class="nav-item"><a href="#experience" class="nav-link">Experience</a></il>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#interests" class="nav-link">Interest</a></li>
+                    <li class="nav-item"><a href="#awards" class="nav-link">Awards</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content -->
+         <div class="container-fluid p-0">
+            <!-- About -->
+             <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">Crystal <span class="text-primary">Wallace-Dowdell</span></h1>
+                    <div class="subheading mb-5">
+                        130 East 300 South Hyrum UT, 84319<br>
+                       (435)265-2759<br>
+                        <a href="mailto:cryspacker@gmail.com">Cryspacker@gmail.com</a></div>
+                        <p class="leade mb-5">I'm hard working, dependable, professional. I always give my hundred percent on anything I do in life.</p>
+                        <div class="social-icons">
+                            <a class="social-icon" href="http://www.linkedin.com/in/crystal-quinn-wallace-dowdell-849775209/"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="social-icon" href="http://www.https://github.com/Quinn7979"><i class="fab fa-github"></i></a>
+                            <a class="social-icon" href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                            <a class="social-icon" href="http://www.https://www.facebook.com/craftsnwear4u"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                    </div>
+                </div>
+             </section>
+             <hr class="m-0" />
+             <!-- Experience -->
+              <section class="resume-section"  id="experience">
+                <div class="resume-section-content d-flex flex-column cols-1">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Customer Service Representative</h3>
+                            <div class="subheading mb-3" >One Support (Remote)</div>
+                            <p>OST - Tech Support<br>
+                            Lumos and NorthState- Tech Support, Go over Balance and when its due <br>
+                            Serga- Make Tech Support Tickets for IT, Go over tickets, update tickets <br>
+                            C Spire- Tech Support, Customer Services, Payments <br>
+                            Omni Fiber- Tech Support<br>
+                            GreenLight Networks- Tech Support</p>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary">2/27/23 - Present</span>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Customer Service Representative</h3>
+                            <div class="subheading mb-3" >One Support (Remote)</div>
+                            <p>Frontier Account Services Expert Level 2 <br>
+                            Inbound Calls, Billing, Set Account Online, Change Orders, New Sales </p>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary">3/15/21 - 2/24/22</span>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Customer Service Representative</h3>
+                            <div class="subheading mb-3" >One Support (Remote)</div>
+                            <p>Frontier DSL Tech Support Level 1 <br>
+                            Inbound Calls, Troubleshooting Customer internet, Email, Web Site. </p>
+                        </div>
+                        <div class="flex-shrink-0">
+                            <span class="text-primary">5/4/20 - 3/14/21</span>
+                        </div>
+                    </div>
+                        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                            <div class="flex-grow-1">
+                            <h3 class="mb-0">Personal Owen Business</h3>
+                                <div class="subheading mb-3" >Crafts N Wear</div>
+                                    <p>Home Made Crochet Items <br>
+                                    Crochet many different items and sell them at Events. I process Billing, Message, and Friendly Customer Services. </p></div>
+                                    <div class="flex-shrink-0"> 
+                                        <span class="text-primary">3/1/16 - Present</span>
+                                    </div>
+                        </div>
+                        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                            <div class="flex-grow-1">
+                            <h3 class="mb-0">Volunteer Work</h3>
+                                <div class="subheading mb-3" >Girl Scout for Life Member</div>
+                                <p>Girl Scout Co-Leader Utah Troop 2033 <br>
+                                Co-Leader to Troop 2033 in Logan Utah. Work with children ages 5 to 18 years. We get together once a week for about 2
+                                hours and do fun events with the children. Do Summer camp, Help with field Trips, take CPR and First aid Training.
+                                Process Training courses and updates every year. Help with Cookie sales and Cookie Booths once a year. </p></div>
+                                <div class="flex-shrink-0">
+                                    <span class="text-primary">9/1/18 - Present</span>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+              </section>
+              <hr class="m-0" />
+            <!-- Education -->
+            <section class="resume-section"  id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                            <div class="flex-grow-1">
+                               <h3 class="mb-0">Bridgerland Technical College</h3>
+                                    <div class="subheading mb-3"> Web & Mobile Development</div>
+                                    <div>Pre-enrollment Program - 2 Week Course</div>
+                                    <p></p></div>
+                                    <div class="flex-shrink-0">
+                                        <span class="text-primary">6/18/24 - Present </span></div>
+                                </div> 
+                                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                                        <div class="flex-grow-1">
+                                            <h3 class="mb-0">Mariposa County High School</h3>
+                                            <div class="subheading mb-3">Courses: 
+                                            <ul><li><i>Typing-Word Processing 50 wpm</i></li>
+                                            <li><i>Child Care</i></li>
+                                            <li><i>Art</i></li>
+                                            <li><i>Photography</i></li>
+                                            <li><i>Choir</i></li>
+                                            </ul>
+                                            <ul>R.O.P. Welding
+                                            <li><i>ARC Welder</i></li>
+                                            <li><i>MIG Welder</i></li>
+                                            <li><i>Oxy-Acetylene Cutting Torch</i></li>
+                                            <li><i>Plasma Cutter</i></li>
+                                            <li><i>Forge</i></li></ul>
+                                        </div>
+                                            <p></p>
+                                        <p>GPA: 2.9206</p></div>
+                                    <div class="flex-shrink-0"><span class="text-primary">Diploma 6/13/02</span></div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills -->
+             <section class="resume-section"  id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i>PHP</i></li>
+                        <li class="list-inline-item"><i class="fa fa-database"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Responsive Design and Web Presence</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Cross Browser Testing & Debugging</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Front-End & Back-End Development</li>
+                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Databases Development</li>
+                    </ul>
+                </div>
+             </section>
+        <hr class="m-0" />
+        <!-- Interests -->
+              <section class="resume-section"  id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>I enjoy being a Girl Scout Leader and spending time with my daughter. I enjoy spending time with family and friends. I enjoy being a Girl Scout Leader and spending time with my daughter.</p>
+                    <p class="mb-0">I have interest in roadtrips with music, cell phone games, crocheting, swimming.</p>
+                </div>
+              </section>
+        <hr class="mb-0" />
+        <!--Awards -->
+        <section class="resume-section"  id="awards">
+            <div class="resume-section-content">           
+                <h2 class="mb-5">Awards & Certifications</h2>
+                <ul class="fa-ul mb-0">
+                    <li><span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>Girl Scout Member for Life</li>
+                    <li><span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>American Red Cross</li>
+                    <li><span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>State Of Califorina: Secretary of States - 2002 Essay Contest</li>
+                    <li><span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>R.O.P. Welding: 2001 - 2002 </li>
+                    <li><span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>The Citizen and the Constitution: We The People</li>
+                </ul>
+            </div>
+         </section>
+         </div>
+    </body>
+</html>
